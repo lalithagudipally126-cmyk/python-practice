@@ -1,0 +1,17 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+college = input("Enter your college name: ")
+favourite_programming_language = input("Enter your favourite programming language: ")
+print("Name:", name)
+print("Age:", age)
+print("College:", college)
+print("Favourite Programming Language:", favourite_programming_language)
+
+
+a = int(input("Enter first number: "))
+b= int(input("Enter second number: "))
+print("Sum:", a+b)
+print("Difference:", a-b)
+print("Product:", a*b)
+print("Quotient:", a/b)
+print("Remainder:", a%b)
