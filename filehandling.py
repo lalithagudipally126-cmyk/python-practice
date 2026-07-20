@@ -1,0 +1,26 @@
+file = open('day1.py', 'r')
+content = file.read()
+print(content)
+file1 = open("day3.py", "r")
+print(file1.read())
+file1.close()
+file2 = open("day5.py", "w")
+print("file created successfully")
+#if we use "w", Erase everything, then start writing(removes the existing date and replaces)
+#if we use "a", Append(adds to the existing data) to the end of the file
+file2.close()
+file3 = open("day5.py", "r")
+print(file3.read())
+file3.close()
+open("just a file.txt", "w").close() #creates a new file and closes it
+open("just a file.txt", "a").close() #opens the file in append mode and closes it
+open("just a file.txt", "r").close() #opens the file in read mode and closes it
+write_file = open("just a file.txt", "w")
+write_file.write("This is a new file created by me\n")
+write_file.close()
+file=open("student.txt","w")
+file.write("Name: Alice\n Age: 20\n Course: AIML\n")
+file.close()
+file=open("student.txt","r")
+print(file.read())
+file.close()
